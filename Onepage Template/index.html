@@ -16,7 +16,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="images/java.png" alt="BMW" width="100rem"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -25,10 +25,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
-                    <a class="nav-link" href="#"><i class="fa fa-wrench" aria-hidden="true"></i> Service </a>
-                    <a class="nav-link" href="#"><i class="fa-solid fa-address-book"></i> About</a>
-                   
+                    <a class="nav-link active" aria-current="page" href="#home"><i class="fa-solid fa-house"></i> Home</a>
+                    <a class="nav-link" href="#service"><i class="fa fa-wrench" aria-hidden="true"></i> Service </a>
+                    <a class="nav-link" href="#about"><i class="fa-solid fa-address-book"></i> About</a>
+
                 </div>
             </div>
         </div>
@@ -60,6 +60,190 @@
     </div>
     <!-- end Slide -->
 
+    <!-- start Home -->
+
+    <section id="home">
+        <div class="container bg-info my-2">
+
+            <div class="text-center">
+                <h1 class="text-light">Home</h1>
+            </div>
+            <hr>
+
+            <div class="row ">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="images/goslin.jfif" alt="James Goslin"
+                        class="rounded-circle border border-3 border-success mb-2">
+                </div>
+                <div class="col-md-6">
+                    <p>James Arthur Gosling OC (born 19 May 1955) is a Canadian computer scientist, best known as the
+                        founder and lead designer behind the Java programming language.</p>
+
+                    <p>Gosling was elected a member of the National Academy of Engineering in 2004 for the conception
+                        and
+                        development of the architecture for the Java programming language and for contributions to
+                        window
+                        systems.</p>
+
+                    <p>Gosling was born in Calgary, Alberta, to Joyce Morrison and Dave Gosling. He is of English,
+                        Welsh,
+                        Scottish, and Icelandic descent. Gosling attended William Aberhart High School. While in high
+                        school, he wrote some of the software to analyze data from the ISIS 2 satellite, working for the
+                        University of Calgary physics department. He received a Bachelor of Science from the University
+                        of
+                        Calgary and his M.A. and Ph.D. from Carnegie Mellon University, all in computer science. He
+                        wrote a
+                        version of Emacs called Gosling Emacs (Gosmacs) while working toward his doctorate. He built a
+                        multi-processor version of Unix for a 16-way computer system while at Carnegie Mellon
+                        University,
+                        before joining Sun Microsystems. He also developed several compilers and mail systems there.
+                        Gosling
+                        has two children, Katie and Kelsey, who are half siblings from his two marriages.</p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- End Home -->
+
+    <!-- start Service -->
+
+    <section id="service">
+        <div class="bg-secondary">
+            <div>
+                <h1 class="text-center">Service</h1>
+                <hr>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3   m-3 bg-light">
+                    <h3 class="text-center">Android App</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit doloribus itaque quisquam
+                        dolorem eligendi? Velit odit, fugiat, laudantium aspernatur maxime nulla aut maiores
+                        necessitatibus minima a et enim, corporis excepturi.`</p>
+                </div>
+                <div class="col-md-3  m-3  bg-warning">
+
+                    <h3 class="text-center">Rest API</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit doloribus itaque quisquam
+                        dolorem eligendi? Velit odit, fugiat, laudantium aspernatur maxime nulla aut maiores
+                        necessitatibus minima a et enim, corporis excepturi.`</p>
+                </div>
+                <div class="col-md-3   m-3 bg-danger">
+
+                    <h3 class="text-center">Web Application</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit doloribus itaque quisquam
+                        dolorem eligendi? Velit odit, fugiat, laudantium aspernatur maxime nulla aut maiores
+                        necessitatibus minima a et enim, corporis excepturi.`</p>
+                </div>
+            </div>
+
+            <div class="row m-3 pb-3">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Android App
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sint odio facere?
+                                    Quas fugiat nihil, quis minus, consequatur modi iste aut nobis iure, enim harum esse
+                                    accusamus aspernatur reiciendis inventore?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-warning" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                REST API
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-danger" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Web Application
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end Serviec -->
+
+    <!-- start about -->
+
+    <section id="about">
+        <div class="container">
+            <h3 class="text-center">About Us</h3>
+            <hr>
+            <div class="row m-2">
+                <div class="col-md-6">
+                    <h3>Say Hello</h3>
+                    <hr>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Message</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <iframe class="border border-3 border-dark" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9115517274663!2d90.36552997439155!3d23.7505332887731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf4e2c05cd5b%3A0xfd49cfbf95c0c749!2sNizam%20Shankar%20Plaza%2C%202%20Satmasjid%20Road%2C%20Dhaka%201207!5e0!3m2!1sen!2sbd!4v1738410428059!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- End About -->
 
 
 
